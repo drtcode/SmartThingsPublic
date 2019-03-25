@@ -19,7 +19,7 @@
 import physicalgraph.zwave.commands.*
 
 metadata {
-	definition (name: "Stelpro Ki Thermostat", namespace: "stelpro", author: "Stelpro", ocfDeviceType: "oic.d.thermostat") {
+	definition (name: "Stelpro Ki Thermostat [mod]", namespace: "stelpro", author: "Stelpro", ocfDeviceType: "oic.d.thermostat") {
 		capability "Actuator"
 		capability "Temperature Measurement"
 		capability "Temperature Alarm"
